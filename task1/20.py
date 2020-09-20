@@ -1,0 +1,7 @@
+print("Enter pressure: ")
+pressure = float(input())
+print("Enter volume: ")
+volume = float(input())
+print("Enter temperature: ")
+temperature = float(input())
+print("Amount: " + "%.2f" % ((pressure * volume) / (temperature * 8.314)))

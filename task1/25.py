@@ -1,0 +1,11 @@
+print("Enter number of seconds: ")
+time = float(input())
+days = int(time / 86400)
+hours = int((time % 86400) / 3600)
+minutes = int(((time % 86400) % 3600) / 60)
+seconds = int(((time % 86400) % 3600) % 60)
+
+print(str(days) 
+		+ ":" + ("0" if (hours <= 9) else "") + str(hours) 
+		+ ":" + ("0" if (minutes <= 9) else "") + str(minutes)
+		+ ":" + ("0" if (seconds <= 9) else "") + str(seconds))

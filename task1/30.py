@@ -1,0 +1,5 @@
+print("Enter pressure in kilopascals: ")
+pressure = float(input())
+print("Pressure in pounds per square inch: " + "%.2f" % (pressure / 6.895))
+print("Pressure in millimeters of mercury: " + "%.2f" % (pressure * 7.501))
+print("Pressure in atmospheres: " + "%.2f" % (pressure / 101))

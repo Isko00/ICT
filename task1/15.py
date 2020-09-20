@@ -1,0 +1,5 @@
+print("Enter amount of feet: ")
+feet = int(input())
+print("Inches: " + str(feet * 12))
+print("Yard: " + str(feet * 0.333333))
+print("Miles: " + str(feet / 5280))

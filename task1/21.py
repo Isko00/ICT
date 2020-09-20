@@ -1,0 +1,5 @@
+print("Enter length: ")
+length = int(input())
+print("Enter height: ")
+height = int(input())
+print("Area: " + str(length * height / 2))

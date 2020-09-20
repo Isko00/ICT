@@ -1,0 +1,5 @@
+print("Enter your height in meters: ")
+height = float(input())
+print("Enter your weight in kilograms: ")
+weight = float(input())
+print("Your bosy mass index: " + "%.2f" % (weight / height / height))
